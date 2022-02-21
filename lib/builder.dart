@@ -36,6 +36,7 @@ class _VersionBuilder implements Builder {
 
     await buildStep.writeAsString(buildStep.allowedOutputs.single, '''
 // Generated code. Do not modify.
+/// Package version
 const String packageVersion = '${pubspec.version}';
 ''');
   }
