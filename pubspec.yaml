@@ -8,7 +8,7 @@ environment:
 
 dependencies:
   args: ^2.7.0
-  build: ^5.0.0
+  build: any
   # Not imported in code, but used to constrain `build.yaml` requirements
   build_config: ^1.4.0
   pubspec_parse: ^1.6.0
