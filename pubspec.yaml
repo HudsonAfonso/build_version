@@ -15,7 +15,7 @@ dependencies:
 
 dev_dependencies:
   api_summary: ^1.2.0
-  build_runner: ^2.17.1
+  build_runner: any
   build_test: ^3.5.23
   build_verify: ^3.1.1
   checked_yaml: ^2.0.4
